@@ -1,5 +1,5 @@
 # An inter-process message queue
- This is an experiment to use the boost library feature as a process interface that can produce and consume pre formatted messages. The idea is to define a protocol that can exchange changes in configuration from one process to the next without an explicit notify or call back.
+ This is an experiment to use a boost library feature as a process interface that can produce and consume pre formatted messages. The idea is to define a protocol that can exchange changes in configuration from one process to the next without an explicit notify or call back.
   
   ![IPC Diagram](level-0-diagram-for-IPC.png)
 # Build  
