@@ -6,9 +6,9 @@ Compile:
 g++ --std=c++17 -pthread msg-hanlder.cpp -o msg-handler -lboost_serialization -lrt
 
 ### C++ binary demo use
-$ msg-handler rx
-$ msg-handler tx
-$ <TYPE MSG content to be sent> + <RETURN>
+msg-handler rx
+msg-handler tx
+<TYPE MSG content to be sent> + <RETURN>
 
 ### Using the C++ IPC as a python precompiled library
 
