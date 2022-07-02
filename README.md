@@ -1,3 +1,9 @@
+# An inter-process message queue
+  This is an experiment to use the boost library feature that is meant as a process interface to produce and consume preformmated
+  messages. The thought here is to define a protocal that can exchange changes in configurtion from one process to the next without
+  an explicit notify or call back.
+  
+  ![IPC Diagram](.\level-0-diagram-for-IPC.png)
 # Build  
   Setup:  
   sudo apt install libc6-dev g++ bootlib-all-dev  
