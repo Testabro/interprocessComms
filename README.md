@@ -2,8 +2,8 @@
  This is an experiment to use a boost library feature as a process interface that can produce and consume pre formatted messages. The idea is to define a protocol that can exchange changes in configuration from one process to the next without an explicit notify or call back.
  
  ##### Current challanges:
-*Security - if a process has the same level of read/write permissions and knows the message queue name then messages can be consumed by the incorrect process or invalid messages can be added to the queue
-*Subscriber managment - currently handled only at the individual process level
+-Security - if a process has the same level of read/write permissions and knows the message queue name then messages can be consumed by the incorrect process or invalid messages can be added to the queue
+-Subscriber managment - currently handled only at the individual process level
   
   ![IPC Diagram](level-0-diagram-for-IPC.png)
 # Build  
