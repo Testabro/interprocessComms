@@ -8,7 +8,7 @@
 ## C++ binary demo use
   msg-handler rx  
   msg-handler tx  
-  <TYPE MSG content to be sent> + <RETURN>  
+  TYPE MSG content to be sent + RETURN 
 
 # Using the C++ IPC as a python precompiled library  
 
