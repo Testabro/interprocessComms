@@ -3,7 +3,7 @@
   messages. The thought here is to define a protocal that can exchange changes in configurtion from one process to the next without
   an explicit notify or call back.
   
-  ![IPC Diagram](.\level-0-diagram-for-IPC.png)
+  ![IPC Diagram](level-0-diagram-for-IPC.png)
 # Build  
   Setup:  
   sudo apt install libc6-dev g++ bootlib-all-dev  
