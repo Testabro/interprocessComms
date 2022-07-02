@@ -8,7 +8,7 @@
   ![IPC Diagram](level-0-diagram-for-IPC.png)
 # Build  
   Setup:  
-  sudo apt install libc6-dev g++ bootlib-all-dev  
+  sudo apt install libc6-dev g++ libboost-all-dev   
 
 ## Compile:  
   g++ --std=c++17 -pthread msg-hanlder.cpp -o msg-handler -lboost_serialization -lrt  
