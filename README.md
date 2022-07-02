@@ -3,7 +3,7 @@
  
  ##### Current challanges:
 * Security - if a process has the same level of read/write permissions and knows the message queue name then messages can be consumed by the incorrect process or invalid messages can be added to the queue
-* Subscriber managment - currently handled only at the individual process level
+* Subscriber management - currently handled only at the individual process level
   
   ![IPC Diagram](level-0-diagram-for-IPC.png)
 # Build  
