@@ -1,5 +1,6 @@
 # An inter-process message queue
-A better implementation of this idea has already been addressed with a maintained production ready solution @ https://github.com/grpc  
+##### A working and production ready idea of this idea has already been addressed with a maintained solution @ https://github.com/grpc  
+
  This is an experiment to use a boost library feature as a process interface that can produce and consume pre formatted messages. The idea is to define a protocol that can exchange changes in configuration from one process to the next without an explicit notify or call back.
  
  ##### Current challanges:
